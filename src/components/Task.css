@@ -1,0 +1,78 @@
+.task {
+  display: flex;
+  width: 700px;
+  height: auto;
+  background-color: #012332;
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-left: 30px;
+  padding: 5px 0;
+}
+.task:hover {
+  background-color: #084A67;
+}
+.task .item {
+  width: 400px;
+  height: auto;
+  margin-left: 30px;
+  margin-top: 15px;
+  color: white;
+}
+.done {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  background-color: red;
+  margin-left: 220px;
+  margin-top: 12px;
+  padding: 0;
+}
+.cl-btn-2 {
+  display: flex;
+  margin-left: 5px;
+}
+.cl-btn-2 div {
+  cursor: pointer;
+  position: relative;
+  height: 12px;
+  width: 12px;
+}
+.cl-btn-2 div:hover .leftright {
+  transform: rotate(-45deg);
+  background-color: #4DF9F8;
+}
+.cl-btn-2 div:hover .rightleft {
+  transform: rotate(45deg);
+  background-color: #4DF9F8;
+}
+.cl-btn-2 div:hover .close-btn {
+  opacity: 1;
+}
+.cl-btn-2 .leftright {
+  height: 2px;
+  width: 20px;
+  position: absolute;
+  margin-top: 14px;
+  background-color: #012332;
+  border-radius: 2px;
+  transform: rotate(45deg);
+  transition: all 0.3s ease-in;
+}
+.cl-btn-2 .rightleft {
+  height: 2px;
+  width: 20px;
+  position: absolute;
+  margin-top: 14px;
+  background-color: #012332;
+  border-radius: 2px;
+  transform: rotate(-45deg);
+  transition: all 0.3s ease-in;
+}
+.tegs {
+  position: relative;
+  top: 0px;
+  left: 50px;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}

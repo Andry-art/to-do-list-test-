@@ -1,0 +1,51 @@
+.corect {
+    position: absolute;
+    left: 430px;
+   top: 200px;
+    display: flex;
+    flex-direction: column;
+    
+    width: 600px;
+    height: 200px;
+    background-color: rgba(77, 249, 248, 0.95);
+    border-radius: 30px;
+    margin: 0;
+    padding: 10px;
+
+    textarea {
+        position: relative;
+        width: 470px;
+        height: 80px;
+        border-radius: 30px;
+        border: none;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+
+        &:focus{
+            outline:none;
+        }
+    }
+
+    button {
+        text-align: center;
+        width: 180px;
+        height: 50px;
+        border-radius: 30px;
+        border: none;
+        background-color: #012332;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+
+        &:hover{
+            background-color: #084A67;
+        }
+    }
+}
+
+.hidden {
+    opacity: 0;
+}
